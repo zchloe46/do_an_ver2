@@ -1,0 +1,144 @@
+/* Đảm bảo HTML và body chiếm toàn bộ chiều cao */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sử dụng Flexbox cho toàn bộ trang */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #2c3e50, #3498db);
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.nav-menu ul li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #f1c40f;
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+/* Body */
+.body {
+    flex: 1 0 auto;
+    background: linear-gradient(135deg, #1a1a3d, #3b1a5a); /* Gradient nền giống hình */
+    color: white;
+}
+
+.body h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.function-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.function-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Nền mờ giống hình */
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.function-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(10px);
+}
+
+.function-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.function-content p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.arrow {
+    font-size: 1.5rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+.animate__fadeIn {
+    animation: fadeIn 1s ease-in;
+}
+
+.animate__bounceIn {
+    animation: bounceIn 0.8s ease-out;
+}
+
+/* Footer */
+.footer {
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #2c3e50, #34495e);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+    transform: scale(1.2);
+}
