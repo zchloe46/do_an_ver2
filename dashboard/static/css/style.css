@@ -122,6 +122,9 @@ body {
 .animate__bounceIn {
     animation: bounceIn 0.8s ease-out;
 }
+.body div form textarea {
+    min-height: 150px;
+}
 
 /* Footer */
 .footer {

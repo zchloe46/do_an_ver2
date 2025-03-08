@@ -2,27 +2,8 @@ from django.shortcuts import render
 from underthesea import classify, word_tokenize, pos_tag
 import os
 
-# Định nghĩa ánh xạ cho các giá trị sentiment
-sentiment_mapping = {
-    'the_thao': 'Thể thao',
-    'phap_luat': 'Pháp luật',
-    'the_gioi': 'Thế giới',
-    'doi_song': 'Đời sống',
-    'chinh_tri_xa_hoi': 'Chính trị Xã hội',
-    'vi_tinh': 'Vi tính',
-    'khoa_hoc': 'Khoa học',
-    'van_hoa': 'Văn hoá',
-    'kinh_doanh': 'Kinh doanh',
-    'suc_khoe': 'Sức khỏe',
-    'khac': 'Khác',
-    'tich_cuc': 'Tích cực',
-    'tieu_cuc': 'Tiêu cực',
-    'trung_lap': 'Trùng lặp',
-    'khong_y_kien': 'Không ý kiến',
-    'pho_bien': 'Phổ biến',
-    'sai': 'Sai',
 
-}
+
 
 def dashboard_view(request):
     return render(request, 'dashboard.html')
@@ -65,7 +46,26 @@ def tokenize_view(request):
             context['text'] = text
     return render(request, 'tokenize.html', context)
 
-
+# Định nghĩa ánh xạ cho các giá trị sentiment
+sentiment_mapping = {
+    'the_thao': 'Thể thao',
+    'phap_luat': 'Pháp luật',
+    'the_gioi': 'Thế giới',
+    'doi_song': 'Đời sống',
+    'chinh_tri_xa_hoi': 'Chính trị Xã hội',
+    'vi_tinh': 'Vi tính',
+    'khoa_hoc': 'Khoa học',
+    'van_hoa': 'Văn hoá',
+    'kinh_doanh': 'Kinh doanh',
+    'suc_khoe': 'Sức khỏe',
+    'khac': 'Khác',
+    'tich_cuc': 'Tích cực',
+    'tieu_cuc': 'Tiêu cực',
+    'trung_lap': 'Trùng lặp',
+    'khong_y_kien': 'Không ý kiến',
+    'pho_bien': 'Phổ biến',
+    'sai': 'Sai',
+}
 def pos_tag_view(request):
     context = {}
     if request.method == 'POST':
