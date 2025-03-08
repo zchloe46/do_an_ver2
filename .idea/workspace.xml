@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4f45254-1f23-4a65-8561-773fdc3228c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/learn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/templates/classify.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/classify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/templates/pos_tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/pos_tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/templates/tokenize.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/tokenize.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/DjangoProject/dashboard/templates",
+    "last_opened_file_path": "D:/DjangoProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DjangoProject" />
       <recent name="D:\DjangoProject\dashboard\templates" />
       <recent name="D:\DjangoProject\dashboard" />
     </key>
@@ -105,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741442931434</updated>
-      <workItem from="1741442932560" duration="4973000" />
+      <workItem from="1741442932560" duration="5176000" />
     </task>
     <servers />
   </component>

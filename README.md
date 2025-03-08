@@ -1,5 +1,5 @@
 # doanmonhoc
-bước 1: tạo project với Django trên Pycharm<br>
+bước 1: tạo project với Django trên Pycharm sử dụng phiên bản python 3.8<br>
 bước 2: tải các thư viện hỗ trợ<br>
     $ pip install underthesea<br>
     $ pip install pymysql<br>
