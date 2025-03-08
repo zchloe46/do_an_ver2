@@ -136,6 +136,7 @@ body {
     color: white;
     font-size: 24px;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .social-icons a:hover {
