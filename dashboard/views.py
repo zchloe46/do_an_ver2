@@ -46,7 +46,7 @@ def tokenize_view(request):
             context['text'] = text
     return render(request, 'tokenize.html', context)
 
-# Định nghĩa ánh xạ cho các giá trị sentiment
+# Định nghĩa ánh xạ cho các giá trị sentiment phục vụ cho pos_tag_view()
 sentiment_mapping = {
     'the_thao': 'Thể thao',
     'phap_luat': 'Pháp luật',
